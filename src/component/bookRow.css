@@ -1,0 +1,32 @@
+.divpa{
+    width: 700px;
+    height:600px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+   border:10px #12511b;
+    
+    border-radius: 2.8rem;
+    box-shadow: 4px 2px 80px 6px  rgb(97, 116, 109);
+    
+    background-color: #07350e;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.btn{
+    width:50px;
+    height:60px;
+    color:rgba(8, 113, 71, 0.9);
+    
+}
+button{
+    background-color: #12511b;
+    margin-left: 10px;
+}
+.d{
+    margin-top:20px;
+    margin-left:20px;
+  /* background-color: aliceblue; */
+    
+}
