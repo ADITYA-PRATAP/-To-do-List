@@ -5,10 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #002e10;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  /* background-color: #002e10; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); */
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url(svg.png);
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -25,6 +25,7 @@ export const BookRow = ({books,setBooks,setAuthor,setBookid,setName,setEdit,setA
                 books.map((book,index) =>{
                     return (
                         <div className='d'>
+                        
                             <tbody>
                                 <tr>
                                     <th>{book.bookid}</th>

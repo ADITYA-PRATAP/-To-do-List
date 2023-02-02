@@ -5,24 +5,38 @@
   margin-left: auto;
   margin-right: auto;
    border:10px #12511b;
+   /* position: fixed;
+   top:2rem; */
     
     border-radius: 2.8rem;
     box-shadow: 4px 2px 80px 6px  rgb(97, 116, 109);
     
-    background-color: #07350e;
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    background-color:transparent;
+    backdrop-filter: blur(15px);
+    /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); */
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .btn{
     width:50px;
     height:60px;
-    color:rgba(8, 113, 71, 0.9);
+    color:rgba(118, 168, 148, 0.9);
+    transition: all;
     
 }
+.btn:hover{
+    color:  rgb(125, 186, 125);
+    padding:2px;
+    transition: 0.2s;
+}
 button{
-    background-color: #12511b;
+    background-color: #76997b;
     margin-left: 10px;
+    border:solid white
+}
+button:hover{
+    background-color: rgb(125, 186, 125);
+    
 }
 .d{
     margin-top:20px;
